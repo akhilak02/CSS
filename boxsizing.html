@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boxsizing</title>
+    <style>
+      .parent {
+        width: 200px;
+        height: 150px;
+        background-color: aqua;
+        background-color: rgb(31, 217, 87);
+        padding: 20px;
+      }
+      .child {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <input type="text" class="child" /><br /><br />
+      <input type="text" class="child" /><br /><br />
+      <input type="text" class="child" /><br /><br />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .form {
+        width: 350px;
+        margin: auto;
+        background-color: rgb(236, 233, 233);
+        padding: 40px;
+        box-shadow: 9px 10px 18px rgb(155, 152, 152);
+        margin-top: 50px;
+        border-radius: 10px;
+        font-size: 18px;
+        border: 1px solid rgb(227, 216, 216);
+        color: rgb(103, 100, 100);
+      }
+      h1 {
+        text-align: center;
+      }
+
+      button {
+        margin-left: 160px;
+        padding: 10px;
+        border: none;
+        background-color: rgb(0, 120, 240);
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 8px rgb(83, 144, 205);
+      }
+      .rad {
+        height: 25px;
+        width: 25px;
+        vertical-align: middle;
+        margin-left: 20px;
+      }
+      .input-box {
+        margin-left: 20px;
+      }
+      .input-field {
+        padding: 10px;
+        /* margin-left: 50px; */
+        margin-top: 15px;
+      }
+      .icon {
+        padding: 10px;
+        background: dodgerblue;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+      }
+      .rad-btn {
+        padding: 10px;
+      }
+      span {
+        margin-right: 0px;
+      }
+      input {
+        margin-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h1>Registration</h1>
+      <hr />
+      <form action="">
+        <div class="rad-btn">
+          <input type="radio" name="radio" class="rad" />Personal
+          <input type="radio" name="radio" class="rad" />Company
+        </div>
+        <hr />
+        <div class="input-box">
+          <span>
+            <i class="fa fa-envelope icon"></i>
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Email"
+              required /></span
+          ><br />
+          <i class="fa fa-user icon"></i>
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Name"
+            required
+          /><br />
+          <i class="fa fa-key icon"></i>
+          <input
+            type="password"
+            class="input-field"
+            placeholder="password"
+            required
+          />
+        </div>
+        <br />
+        <div class="rad-btn">
+          <input type="radio" name="gender" class="rad" />Male
+          <input type="radio" name="gender" class="rad" />Female <br /><br />
+        </div>
+        <p>
+          By clicking Register,You <br />
+          agree on our
+          <a href=""
+            >terms and <br />
+            condition</a
+          >
+          <button>Register</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

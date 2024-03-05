@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-Grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        /* height: 100vh; */
+        background-color: #b4d4ff;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* grid-gap: 10px; */
+      }
+      .items {
+        /* padding: 20px;
+        border: 5px solid black; */
+        /* border: 5px solid rebeccapurple; */
+        padding: 3px;
+        /* background-color: blue; */
+      }
+      img {
+        width: 500px;
+        height: 390px;
+        /* border: 5px solid black; */
+      }
+      /* img:hover {
+        border-radius: 50%;
+        border: 5px solid black;
+      } */
+      .item-pic {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="items item-pic">
+        <img
+          src="https://media.istockphoto.com/id/1069531070/photo/groups-of-dogs-labrador-puppies-puppy-chocolate-labrador-retriever-in-front-of-white.jpg?s=612x612&w=0&k=20&c=JplDyHWDC0stouz_ddSAE4HHXBHRXd-jlFRbPBgdS38="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/1077145200/photo/adorable-welsh-corgi-pembroke-on-green-lawn-at-home.jpg?s=612x612&w=0&k=20&c=hW2KOo_XMOQ9agdeMJGrSfCrdm9u6BMINUo8a0ySfJk="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/1184184060/photo/cute-happy-dog-playing-with-a-stick.jpg?s=612x612&w=0&k=20&c=SEQTAh-ueme0T9JCSFK608qT6xOCAn0jBfcaCVHHbac="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/1152439648/photo/cute-dog-on-sofa-with-woman-on-background.jpg?s=612x612&w=0&k=20&c=anqmHXwLoBqLf4IOW40gfIEP4Y-_uhtdV4gJm4XbOSs="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/157632199/photo/havanese-puppy-clutching-a-red-heart-shaped-plush-toy.jpg?s=612x612&w=0&k=20&c=YCQAdRDNEgIxOYAqFrTCCNXybUMx2lcA66nexPjDcH4="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/1145118489/photo/albai-dog-is-my-favourite.jpg?s=612x612&w=0&k=20&c=jx9Ot9OeqtS1xnH9P4aY_fH22v2xZe_LPthJRbyhYSw="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/540240852/photo/orange-cat-and-spitz-dog-together-looking-at-camera.jpg?s=612x612&w=0&k=20&c=3bVwBXdYq0ZSa2BQFuyvyc6UOeTg3xGyciO7rUVzZNc="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/539150389/photo/winter-walk-of-golden-retriever-puppy.jpg?s=612x612&w=0&k=20&c=iZ06Vb4aKGbCgHWWnQzvgYyuuluhdHByN3gKPwvQrIo="
+          alt=""
+        />
+      </div>
+      <div class="items">
+        <img
+          src="https://media.istockphoto.com/id/1195594205/photo/cozzy-winter.jpg?s=612x612&w=0&k=20&c=uBpz9EEP_X0v2WTUVHMLDU-aVr1h-l2xcTh3VIhWL8o="
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>

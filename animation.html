@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      img {
+        width: 300px;
+        position: relative;
+        animation-name: move;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        /* animation-iteration-count: infinite; */
+      }
+      @keyframes move {
+        0% {
+          top: 50px;
+        }
+        100% {
+          margin-left: 700px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://media.istockphoto.com/id/518246442/photo/woman-with-a-banner.jpg?s=612x612&w=0&k=20&c=nATjTP1efyKo6GRnrcHelNkUH8J_oycpZhKRZPb_RXA="
+      alt=""
+    />
+  </body>
+</html>

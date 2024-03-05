@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-index</title>
+    <style>
+      #div1 {
+        width: 200px;
+        height: 200px;
+        background-color: cadetblue;
+        position: absolute;
+        top: 290px;
+        left: 290px;
+        z-index: 99999;
+        text-align: center;
+      }
+      #div2 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(143, 211, 214);
+        position: absolute;
+        top: 240px;
+        left: 240px;
+        z-index: 100;
+        text-align: center;
+      }
+      #div3 {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(95, 158, 160, 0.5);
+        position: absolute;
+        top: 190px;
+        left: 190px;
+        z-index: 1;
+        text-align: center;
+      }
+      #div4 {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(95, 158, 160, 0.2);
+        position: absolute;
+        top: 140px;
+        left: 140px;
+        z-index: -1;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="div1">Z-index :99999</div>
+    <div id="div2">Z-index :100</div>
+    <div id="div3">Z-index :1</div>
+    <div id="div4">Z-index :-1</div>
+  </body>
+</html>

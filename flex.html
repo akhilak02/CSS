@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <style>
+      .wrapper {
+        height: 800px;
+        background-color: orchid;
+        align-items: center;
+        display: flex;
+        /* flex-direction: column-reverse; */
+
+        /* justify-content: space-between; */
+        flex-wrap: wrap; /* responsive*/
+      }
+      .demo {
+        height: 250px;
+        width: 250px;
+        background-color: aqua;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="demo">
+        <h1>1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit a
+        </p>
+      </div>
+      <div class="demo">
+        <h1>2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit</p>
+      </div>
+      <div class="demo">
+        <h1>3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          aspernatur temporibus et magnam atque necessitatibus quibusdam, minus
+        </p>
+      </div>
+      <div class="demo">
+        <h1>4</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          aspernatur temporibus et magnam atque necessitatibus quibusdam, minus
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

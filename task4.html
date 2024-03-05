@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: green;
+        height: 60px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul li {
+        float: left;
+        padding: 20px;
+        display: block;
+        position: relative;
+      }
+      ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        display: block;
+        float: left;
+        width: 150px;
+        padding: 10px 20px;
+      }
+      ul li a:hover {
+        color: gold;
+      }
+      ul ul {
+        display: none;
+        position: absolute;
+        background-color: green;
+        /* min-width: 100px; */
+        top: 55px;
+      }
+      ul ul li {
+        float: none;
+        color: white;
+        /* padding: 12px 16px;
+        display: block;
+        text-align: left; */
+      }
+      ul li:hover > ul {
+        display: block;
+      }
+      ul li a {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li>
+            <a href="">Products</a>
+            <ul>
+              <li><a href="">Engineering</a></li>
+              <li><a href="">Telecom</a></li>
+              <li><a href="">Energy</a></li>
+              <li><a href="">Finance</a></li>
+              <li><a href="">Consultancy</a></li>
+            </ul>
+          </li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
